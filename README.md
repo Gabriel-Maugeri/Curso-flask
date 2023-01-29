@@ -1,12 +1,13 @@
 # Curso de Flask (Platzi)
-[Clase 1 Introducción](Clase-1-Introducción)
+[Clase 1 Introducción](#Clase-1-Introducción)
 
 [Clase 2 ¿Cómo funcionan las aplicaciones web?](#Clase-2-Cómo-funcionan-las-aplicaciones-web)
 
 [Clase 3 ¿Qué es Flask?](#Clase-3-Qué-es-Flask)
 
-## Clase 1 Introducción
+[Clase 4 Instalación de Python, pip y virtualenv](#Clase-4-Instalación-de-Python-pip-y-virtualenv)
 
+## Clase 1 Introducción
 Conoce todo el potencial de Flask como framework web de Python, integraciones con Bootstrap, GCloud, What The Forms y más.
 
 Flask es sencillo de aprender, tiene una documentación clara y práctica, es rápido a la hora de renderizar puede ser hasta tres veces más rapido que Django. También es fácil de realizar una API REST, la estructura de un proyecto es flexible y es ideal para aprender desarrollo web con un framework de Python.
@@ -34,5 +35,71 @@ Flask es un framework minimalista escrito en Python que permite crear aplicacion
 - Utiliza un template llamado Jinja2 que está inspirado en los templates de Django.  
 -	Django trae todo incluido mientras que flask es lo más simple posible.  
 - Django tiene in modelo MVC mientras que Flask no tiene in modelo especifico.  
--	Django tiene ORM mientras que Flask es más personalizable al trabajar con bases de datos.  
+-	Django tiene ORM mientras que Flask es más personalizable al trabajar con bases de datos.
+
+## Clase 4 Instalación de Python, pip y virtualenv
+**Esta es la guía para cinfigurar niestro ambiente con Python 3.**  
+Por lo general Mac ya icluye una instalación de Python, la puedes verificar ejecutando los siguiente comandos en una terminal
+```
+python --version
+```
+```
+python3 --version
+```
+
+Debemos asegurarnos de tener **python 3**. Para instalar Python puedes seguir el siguiente enlace y después regresar a esta lectura
+
+https://platzi.com/clases/1378-python/14289-guia-de-instalacion-y-conceptos-basicos/
+
+**Instalación en Windows**  
+Una vez que instalaste python 3 desde python.org vamos a verificar que también incluimos pip en esta instalación. Después debes correr el siguiente comando para instalar virtualenv:
+```
+pip install virtualenv
+```
+
+El sistema debe haber instalado virtualenv y ahora podemos comenzar con el curso.
+
+**Instalación en Mac**  
+Si ya instalaste python 3 ahora corre el siguiente comando para instalar pip:
+
+```
+sudo easy_install pip
+```
+
+Para install virtualenv de manera global corre:
+
+```
+pip install virtualenv
+```
+
+El sistema debe haber instalado virtualenv y ahora podemos comenzar con el curso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
