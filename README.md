@@ -38,8 +38,8 @@ Flask es un framework minimalista escrito en Python que permite crear aplicacion
 -	Django tiene ORM mientras que Flask es más personalizable al trabajar con bases de datos.
 
 ## Clase 4 Instalación de Python, pip y virtualenv
-**Esta es la guía para cinfigurar niestro ambiente con Python 3.**  
-Por lo general Mac ya icluye una instalación de Python, la puedes verificar ejecutando los siguiente comandos en una terminal
+**Esta es la guía para configurar nuestro ambiente con Python 3.**  
+Por lo general Mac ya incluye una instalación de Python, la puedes verificar ejecutando los siguiente comandos en una terminal
 ```
 python --version
 ```
