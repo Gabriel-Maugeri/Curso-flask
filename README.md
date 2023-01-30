@@ -7,6 +7,8 @@
 
 [Clase 4 Instalación de Python, pip y virtualenv](#Clase-4-Instalación-de-Python-pip-y-virtualenv)
 
+[Clase 5 Hello World Flasj](#Clase-5-Hello-World-Flask)
+
 ## Clase 1 Introducción
 Conoce todo el potencial de Flask como framework web de Python, integraciones con Bootstrap, GCloud, What The Forms y más.
 
@@ -74,6 +76,36 @@ pip install virtualenv
 
 El sistema debe haber instalado virtualenv y ahora podemos comenzar con el curso.
 
+## Clase-5-Hello-World-Flask  
+**Creación del ambiente virtual**  
+Una vez que ya instalamos virtualenv con pip, nos dirigimos a la carpeta en la que deseamos crear el proyecto, una vez ahi, mediante el cmd o powershell estando en la ruta deseada, creamos un nuevo directorio con el siguiente comando
+```
+mkdir nombre_del_directorio
+```
+Nos movemos al nuevo directorio, creamos en ambiente virtual
+```
+virtualenv venv
+```
+y lo activamos
+```
+venv/Scripts/activate
+```
+En este ambiente virtual es donde nosotros vamos a instalar Flask, esto se hace mediante pip
+```
+pip install flask
+```
+Si todo salio correctamente deberiamos tener instalado flask con sus dependencias, esto lo podemos ver realizando un freeze
+```
+pip freeze
+```
+Lo que nos tendria que devolver los siguiente datos  
+- click==8.1.3
+- colorama==0.4.6
+- Flask==2.2.2
+- itsdangerous==2.1.2
+- Jinja2==3.1.2
+- MarkupSafe==2.1.2
+- Werkzeug==2.2.2
 
 
 
